@@ -1,0 +1,10 @@
+/* ============================= */
+/* Nasconde il titolo automatico del tema */
+.site-header, .page-header {
+  display: none;
+}
+
+/* Centra tutto il contenuto Markdown */
+.page-content {
+  text-align: center;
+}
