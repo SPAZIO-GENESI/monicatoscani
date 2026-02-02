@@ -1,7 +1,6 @@
 ---
-layout: page        # usa il layout "page" del tema, non default
-title: ""           # rimuove il site title automatico
-permalink: /        # mantiene index come home page
+layout: default
+permalink: /
 ---
 
 # Monica Toscani
@@ -14,4 +13,3 @@ Roma (Italy)
 [Flickr](https://www.flickr.com/people/monicatoscani/)
 
 info@monicatoscani.eu
-
