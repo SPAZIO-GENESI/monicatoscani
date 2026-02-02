@@ -38,3 +38,23 @@ hr {
   border-top: 1px solid #ccc;
   width: 50%;
 }
+
+
+/* Responsive per schermi piccoli */
+@media (max-width: 600px) {
+  body {
+    padding: 1rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  a, strong {
+    font-size: 0.9rem;
+  }
+
+  hr {
+    width: 80%;
+  }
+}
