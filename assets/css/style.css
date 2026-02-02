@@ -1,3 +1,16 @@
-.page-header, .site-header, h1 {
+/* ============================= */
+/* Nasconde solo il titolo automatico del tema */
+.page-header, .site-header {
   display: none;
+}
+
+/* Mantiene visibile e stilizzato il tuo h1 scritto nel Markdown */
+div[align="center"] h1 {
+  display: block;       /* mostra il titolo del Markdown */
+  font-size: 2em;       /* dimensione normale del titolo */
+  line-height: 1.2;     /* altezza linea leggibile */
+  margin: 0.5em 0;      /* margini coerenti */
+  font-weight: bold;     /* come da Markdown */
+  color: inherit;       /* colore tema */
+  text-align: center;   /* centrato */
 }
