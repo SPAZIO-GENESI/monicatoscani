@@ -1,8 +1,8 @@
 ---
-title: ""       # disabilita il titolo automatico
-layout: default # usa il layout standard del tema
+layout: page        # usa il layout "page" del tema, non default
+title: ""           # rimuove il site title automatico
+permalink: /        # mantiene index come home page
 ---
-
 
 # Monica Toscani
 
