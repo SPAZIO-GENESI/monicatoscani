@@ -1,7 +1,3 @@
-defaults:
-  -
-    scope:
-      path: ""
-      type: "pages"
-    values:
-      css: "/assets/css/custom.css"
+title: ""          # nessun titolo automatico
+theme: null         # nessun tema GitHub Pages predefinito
+markdown: kramdown
