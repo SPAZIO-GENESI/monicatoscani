@@ -10,6 +10,6 @@ Roma (Italy)
 
 ---
 
-[Flickr](https://www.flickr.com/people/monicatoscani/)
+[Flickr](https://www.flickr.com/people/monicatoscani/) - [Instagram](https://www.instagram.com/mirtilo_azul/)
 
 info@monicatoscani.eu
