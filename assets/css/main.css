@@ -3464,3 +3464,7 @@ section .hero {
 .starter-section {
   /* Add your styles here */
 }
+
+.hidden {
+  display: none;
+}
