@@ -2,9 +2,45 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
-    <loc>https://www.monicatoscani.eu/</loc>
+    <loc>https://monicatoscani.eu/</loc>
     <priority>1.0</priority>
-    <lastmod>2026-02-02</lastmod>
+    <lastmod>2026-06-11</lastmod>
+  </url>
+
+  <url>
+    <loc>https://monicatoscani.eu/progetti/spettacolo/</loc>
+    <priority>0.8</priority>
+    <lastmod>2026-06-11</lastmod>
+  </url>
+
+  <url>
+    <loc>https://monicatoscani.eu/progetti/interni/</loc>
+    <priority>0.8</priority>
+    <lastmod>2026-06-11</lastmod>
+  </url>
+
+  <url>
+    <loc>https://monicatoscani.eu/progetti/eventi/</loc>
+    <priority>0.8</priority>
+    <lastmod>2026-06-11</lastmod>
+  </url>
+
+  <url>
+    <loc>https://monicatoscani.eu/progetti/poetica_delle_rovine_contemporanee/</loc>
+    <priority>0.8</priority>
+    <lastmod>2026-06-11</lastmod>
+  </url>
+
+  <url>
+    <loc>https://monicatoscani.eu/progetti/reportage/</loc>
+    <priority>0.8</priority>
+    <lastmod>2026-06-11</lastmod>
+  </url>
+
+  <url>
+    <loc>https://monicatoscani.eu/progetti/pastore/</loc>
+    <priority>0.8</priority>
+    <lastmod>2026-06-11</lastmod>
   </url>
 
 </urlset>
