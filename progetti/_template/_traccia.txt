@@ -1,0 +1,33 @@
+TRACCIA DI TESTO — modello
+===========================
+Copia questo file nella cartella del progetto col nome "_traccia.txt"
+e compila quello che puoi: anche appunti sparsi vanno benissimo,
+Claude li elabora in una presentazione di livello artistico.
+Il file inizia con "_" quindi NON viene mai pubblicato sul sito.
+
+TITOLO:
+(il nome del progetto)
+
+CATEGORIA:
+(es. Reportage / Fotografia di scena / Progetto artistico / Committenza)
+
+LUOGO:
+
+ANNO / PERIODO:
+
+TECNICHE:
+(es. digitale, analogico, callitipia, polaroid su carta artigianale, video, suono...)
+
+AMBITO:
+(es. residenza artistica, mostra, committenza privata, ricerca personale)
+
+DI COSA PARLA:
+(appunti liberi: il tema, com'è nato, cosa volevi raccontare,
+ le persone e i luoghi incontrati, episodi significativi...)
+
+NOTE SULLE IMMAGINI:
+(se qualche foto merita una didascalia o un ordine particolare, segnalalo qui;
+ indica anche le 3-5 immagini "di punta" da mettere nello slider in alto)
+
+EVENTUALI CITAZIONI / TESTI GIÀ SCRITTI:
+(comunicati, testi di curatori, statement già esistenti da riprendere)

@@ -1,0 +1,38 @@
+CARTELLA PROGETTI — come funziona
+==================================
+(questo file inizia con "_" quindi non viene pubblicato sul sito)
+
+OGNI PROGETTO = UNA CARTELLA
+Dentro ogni cartella ci sono:
+  - le immagini del progetto (.webp consigliato, vanno bene anche .jpg)
+  - _traccia.txt   → i tuoi appunti sul progetto (mai pubblicato)
+  - index.html     → la pagina del progetto, generata da Claude
+
+PER AGGIUNGERE UN NUOVO PROGETTO
+1. Crea una cartella qui dentro, nome minuscolo senza spazi (es. "guardiane")
+2. Poggia dentro le immagini
+3. Copia _template/_traccia.txt nella cartella e compilala (anche solo appunti)
+4. Chiedi a Claude di generare la pagina: userà il modello in _template/
+   e scriverà i testi elaborando la tua traccia
+
+PER AGGIORNARE UN PROGETTO ESISTENTE
+Aggiungi/togli immagini o modifica la _traccia.txt, poi chiedi a Claude
+di rigenerare la pagina.
+
+INDIRIZZI DELLE PAGINE (una volta pubblicate)
+  monicatoscani.eu/progetti/spettacolo/
+  monicatoscani.eu/progetti/interni/
+  monicatoscani.eu/progetti/eventi/
+  ... e così via, una per cartella.
+Finché la home pubblica non le linka, le pagine restano "invisibili":
+raggiungibili solo da chi ha l'indirizzo esatto (e da index6.html, la
+versione di lavoro nascosta).
+
+NOTE
+- Cartelle e file che iniziano con "_" non vengono mai pubblicati
+  (_template, _traccia.txt, _LEGGIMI.txt).
+- Nomi file immagine: meglio "Monica_Toscani_nomeprogetto_001.webp",
+  senza spazi né parentesi.
+- Le vecchie cartelle assets/img/circ, events e interior_photography
+  sono state spostate qui (spettacolo, eventi, interni) correggendo
+  il refuso "Monitca" nei nomi file.
