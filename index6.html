@@ -33,9 +33,33 @@
     vertical-align: middle;
     margin-right: 0;
   }
-</style>
 
-></style>
+  /* Social link più grandi */
+  .footer .social-links a {
+    width: 56px;
+    height: 56px;
+    font-size: 26px;
+  }
+
+  .footer .social-links a svg {
+    width: 30px;
+    height: 30px;
+  }
+
+  .contact .contact-sidebar .connect-section .social-links .social-link {
+    width: 52px;
+    height: 52px;
+  }
+
+  .contact .contact-sidebar .connect-section .social-links .social-link i {
+    font-size: 26px;
+  }
+
+  .contact .contact-sidebar .connect-section .social-links .social-link svg {
+    width: 28px;
+    height: 28px;
+  }
+</style>
   <!-- =======================================================
   * Template Name: MinimalFolio
   * Template URL: https://bootstrapmade.com/minimalfolio-bootstrap-portfolio-template/
@@ -175,7 +199,7 @@
 
           <div class="col-lg-5" data-aos="zoom-in" data-aos-delay="250">
             <figure class="profile-figure text-center text-lg-end">
-              <img src="assets/img/profile/Monica_Toscani_fotografia_Roma_2.webp" alt="Portrait of Alex" class="img-fluid profile-photo">
+              <img src="assets/img/profile/Monica_Toscani_fotografia_Roma_2.webp" alt="Ritratto di Monica Toscani" class="img-fluid profile-photo">
               <figcaption class="profile-caption d-flex justify-content-end">
               </figcaption>
             </figure>
@@ -309,7 +333,7 @@
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Portfolio</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <p>Committenza e ricerca artistica: spettacolo, interni, eventi e progetti personali sul territorio e sulle donne</p>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -473,8 +497,8 @@
     <section id="contact" class="contact section light-background">
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Contact</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <h2>Contatti</h2>
+        <p>Per committenze, collaborazioni, mostre o semplicemente per parlare di un progetto</p>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -482,22 +506,27 @@
           <div class="col-lg-7 order-lg-1 order-2" data-aos="fade-right" data-aos-delay="200">
             <div class="contact-form-container">
               <div class="form-intro">
-                <h2>Let's Start a Conversation</h2>
-                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat.</p>
+                <h2>Iniziamo una conversazione</h2>
+                <p>Raccontami il tuo progetto: un evento da documentare, uno spazio da fotografare, una collaborazione artistica. Rispondo di solito entro un paio di giorni.</p>
               </div>
 
-              <form action="forms/contact.php" method="post" class="php-email-form contact-form">
+              <form action="https://formsubmit.co/info@monicatoscani.eu" method="POST" class="contact-form">
+                <input type="hidden" name="_subject" value="Nuovo messaggio dal sito monicatoscani.eu">
+                <input type="hidden" name="_next" value="https://monicatoscani.eu/grazie.html">
+                <input type="hidden" name="_captcha" value="false">
+                <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
+
                 <div class="row">
                   <div class="col-md-6">
                     <div class="form-field">
-                      <input type="text" name="name" class="form-input" id="userName" placeholder="Your Name" required="">
-                      <label for="userName" class="field-label">Name</label>
+                      <input type="text" name="name" class="form-input" id="userName" placeholder="Il tuo nome" required="">
+                      <label for="userName" class="field-label">Nome</label>
                     </div>
                   </div>
 
                   <div class="col-md-6">
                     <div class="form-field">
-                      <input type="email" class="form-input" name="email" id="userEmail" placeholder="Your Email" required="">
+                      <input type="email" class="form-input" name="email" id="userEmail" placeholder="La tua email" required="">
                       <label for="userEmail" class="field-label">Email</label>
                     </div>
                   </div>
@@ -506,32 +535,26 @@
                 <div class="row">
                   <div class="col-md-6">
                     <div class="form-field">
-                      <input type="tel" class="form-input" name="phone" id="userPhone" placeholder="Your Phone">
-                      <label for="userPhone" class="field-label">Phone</label>
+                      <input type="tel" class="form-input" name="phone" id="userPhone" placeholder="Il tuo telefono">
+                      <label for="userPhone" class="field-label">Telefono</label>
                     </div>
                   </div>
 
                   <div class="col-md-6">
                     <div class="form-field">
-                      <input type="text" class="form-input" name="subject" id="messageSubject" placeholder="Subject" required="">
-                      <label for="messageSubject" class="field-label">Subject</label>
+                      <input type="text" class="form-input" name="subject" id="messageSubject" placeholder="Oggetto" required="">
+                      <label for="messageSubject" class="field-label">Oggetto</label>
                     </div>
                   </div>
                 </div>
 
                 <div class="form-field message-field">
-                  <textarea class="form-input message-input" name="message" id="userMessage" rows="5" placeholder="Tell us about your project" required=""></textarea>
-                  <label for="userMessage" class="field-label">Message</label>
-                </div>
-
-                <div class="my-3">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
+                  <textarea class="form-input message-input" name="message" id="userMessage" rows="5" placeholder="Raccontami il tuo progetto" required=""></textarea>
+                  <label for="userMessage" class="field-label">Messaggio</label>
                 </div>
 
                 <button type="submit" class="send-button">
-                  Send Message
+                  Invia messaggio
                   <span class="button-arrow">→</span>
                 </button>
               </form>
@@ -542,7 +565,7 @@
             <div class="contact-sidebar">
               <div class="contact-header">
                 <h3>Rimaniamo in contatto</h3>
-                <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud.</p>
+                <p>Lavoro tra Roma e l'estero, disponibile per committenze, progetti editoriali e residenze artistiche.</p>
               </div>
 
               <div class="contact-methods">
@@ -551,7 +574,7 @@
                     <i class="bi bi-geo-alt"></i>
                   </div>
                   <div class="contact-details">
-                    <span class="method-label">Address</span>
+                    <span class="method-label">Base</span>
                     <p>Roma (IT)</p>
                   </div>
                 </div>
@@ -565,30 +588,10 @@
                     <p>info@monicatoscani.eu</p>
                   </div>
                 </div>
-
-                <div class="contact-method" data-aos="fade-in" data-aos-delay="450">
-                  <div class="contact-icon">
-                    <i class="bi bi-telephone"></i>
-                  </div>
-                  <div class="contact-details">
-                    <span class="method-label">Phone</span>
-                    <p>+1 (555) 789-2468</p>
-                  </div>
-                </div>
-
-                <div class="contact-method" data-aos="fade-in" data-aos-delay="500">
-                  <div class="contact-icon">
-                    <i class="bi bi-clock"></i>
-                  </div>
-                  <div class="contact-details">
-                    <span class="method-label">Hours</span>
-                    <p>Monday - Friday: 9AM - 6PM<br>Saturday: 10AM - 4PM</p>
-                  </div>
-                </div>
               </div>
 
               <div class="connect-section" data-aos="fade-up" data-aos-delay="550">
-                <span class="connect-label">Connect with me</span>
+                <span class="connect-label">Seguimi</span>
                 <div class="social-links">
                   <a href="https://www.linkedin.com/in/monica-toscani-ab4978196/" class="social-link">
                     <i class="bi bi-linkedin"></i>
